@@ -1,0 +1,20 @@
+{
+    "name": "maltblue/simple-class",
+    "description": "Test Composer Project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Setter",
+            "email": "matthew@maltblue.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php": ">=5.3.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "SimpleClass": "src/"
+        }
+    }
+}
